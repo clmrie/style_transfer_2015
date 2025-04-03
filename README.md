@@ -1,31 +1,11 @@
-# style_transfer_2015
-
-Sure! Here's a clean and concise `README.md` you can use for your neural style transfer project:
-
----
+Sure! Here's the GitHub-ready `README.md` you can copy-paste directly:
 
 ```markdown
-# 🎨 Neural Style Transfer with PyTorch
+# 🖼️ Neural Style Transfer with PyTorch
 
-This project performs neural style transfer using a pretrained VGG19 model. It blends the content of one image with the artistic style of another.
+Blend the content of one image with the artistic style of another using a pretrained VGG19 model.
 
-## 📁 Project Structure
-
-- `content.png`: The image to preserve the structure from.
-- `style.png`: The image to transfer the artistic style from.
-- `output.png`: The generated image with combined content and style.
-- `style_transfer.py`: Main script for processing and optimization.
-
-## 🚀 How to Run
-
-1. Place `content.png` and `style.png` in your working directory.
-2. Run the script:
-   ```bash
-   python style_transfer.py
-   ```
-3. The output will be saved as `output.png`.
-
-## 🧠 Requirements
+## 🔧 Requirements
 
 - Python 3.8+
 - PyTorch
@@ -33,21 +13,46 @@ This project performs neural style transfer using a pretrained VGG19 model. It b
 - Pillow
 
 Install dependencies:
+
 ```bash
 pip install torch torchvision pillow
 ```
 
+## 🚀 Usage
+
+1. Place your images in the working directory:
+   - `content.png`
+   - `style.png`
+
+2. Run the script:
+
+```bash
+python style_transfer.py
+```
+
+3. The output will be saved as `output.png`.
+
 ## ⚙️ Features
 
-- GPU support (if available)
-- Clean architecture with content/style loss modules
-- Supports remote or local image inputs
+- Supports GPU acceleration
+- Based on VGG19 from torchvision
+- Easily customizable content/style layers
 
 ---
 
-Feel free to experiment with different style/content images or layer configurations!
+📁 Example structure:
+
+```
+.
+├── style_transfer.py
+├── content.png
+├── style.png
+└── output.png
 ```
 
 ---
 
-Let me know if you want a version tailored for Jupyter or Kaggle too!
+Feel free to experiment with different images or loss layer combinations!
+```
+
+Let me know if you want a version with image previews or badges too!
