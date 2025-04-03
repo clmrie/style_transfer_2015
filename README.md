@@ -1,12 +1,4 @@
-Sure! Here's a full `README.md` you can copy-paste for your project — it covers:
 
-1. **What the project does**  
-2. **How it works (briefly)**  
-3. **How to run it**
-
----
-
-```markdown
 # 🎨 Neural Style Transfer
 
 This project applies **neural style transfer** to generate a new image that combines the **content of one image** with the **artistic style of another**. For example, you can take a photo and repaint it in the style of Van Gogh's Starry Night.
