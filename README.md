@@ -50,9 +50,4 @@ The final output will be saved as:
 output.png
 ```
 
----
 
-Feel free to experiment with different images or tune the weights for different visual results!
-```
-
-Let me know if you want this as a downloadable `.md` file or with a sample image preview!
