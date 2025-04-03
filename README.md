@@ -1,7 +1,15 @@
 
 # 🎨 Neural Style Transfer
 
-This project applies **neural style transfer** to generate a new image that combines the **content of one image** with the **artistic style of another**. For example, you can take a photo and repaint it in the style of Van Gogh's Starry Night.
+This is an implementation of the following paper:
+
+**A Neural Algorithm of Artistic Style**  
+*Leon A. Gatys, Alexander S. Ecker, Matthias Bethge*  
+📄 [https://arxiv.org/abs/1508.06576](https://arxiv.org/abs/1508.06576)
+
+---
+
+This project applies **neural style transfer** to generate a new image that combines the **content of one image** with the **artistic style of another**. For example, you can take a photo and repaint it in the style of Van Gogh's *Starry Night*.
 
 ---
 
@@ -44,9 +52,7 @@ output.png
 
 ---
 
-Feel free to tweak the content/style layers or weights to experiment with different effects.
+Feel free to experiment with different images or tune the weights for different visual results!
 ```
 
----
-
-Let me know if you want this adapted to Jupyter, Kaggle, or Colab format!
+Let me know if you want this as a downloadable `.md` file or with a sample image preview!
