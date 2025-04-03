@@ -1,6 +1,7 @@
 
 # 🎨 Neural Style Transfer
 
+*Deep Learning class project – Université Paris-Saclay*
 This is an implementation of the following paper:
 
 **A Neural Algorithm of Artistic Style**  
